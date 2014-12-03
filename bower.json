@@ -1,0 +1,21 @@
+{
+  "name": "typescript-workflow",
+  "version": "0.0.0",
+  "authors": [
+    "Michal Katanski <mkatanski@nexway.com>"
+  ],
+  "description": "TypeScript Workflow Demo for Nexway",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.5"
+  }
+}

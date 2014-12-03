@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypeScript Workflow Demo for Nexway</title>
+	<!-- SCRIPTS -->
+	<script src="bower_components/angular/angular.js"></script>
+
+	<!-- Compiled code -->
+	<script src="build/out.js"></script>
+</head>
+<body ng-app="testApp" ng-controller="MainController">
+{{vm.message}}
+<div ng-controller="TestController">{{vm.message}}</div>
+<newdirective></newdirective>
+</body>
+</html>
